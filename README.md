@@ -5,9 +5,11 @@ print("Este e meu pequeno projeto , meu banco de anotações,resumos sobre meus 
 
 -inicio-
 
-[]Front End
-[] Back end
-[] Cloud
+Front End
+
+Back end
+
+Cloud
 
 Toda a aplicação tendo como python a base princiapal sendo desenvolvida , a frameworck usada para este projeto é a Django
 
