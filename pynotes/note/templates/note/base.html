@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/note.css'%}" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+
+    <h1>Py_Notes</h1>
+
+   </header>    
+
+   <main>
+       {% block content %}
+       {% endblock %}
+   </main>
+</body>
+
+
+</html>
